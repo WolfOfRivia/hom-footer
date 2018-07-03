@@ -1,0 +1,77 @@
+.connect {
+  background-color: #222222;
+}
+
+footer {
+  text-align: center;
+}
+
+footer h1, footer p {
+  color: #fff;
+}
+
+footer .social-icons {
+  text-align: center;
+}
+
+.connect a {
+  display: inline-block;
+  margin: 0;
+  margin-right: 2em;
+}
+
+footer a .fab {
+  color: #cc0000;
+  font-size: 3rem;
+  transition: .5s;
+}
+
+footer a .fab:hover {
+  color: #cc0000;
+}
+
+/*---- FOOTER ---- */
+footer {
+  padding: 1rem 0;
+  margin: 0;
+  color: #ccc;
+  background: url('perks-bg-20.jpg') repeat;
+  font-size: .9rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+media screen and (max-width: 768px) {
+ /*---- CONNECT ----*/
+  
+  .connect a {
+    display: inline-block;
+    margin: 0;
+    margin-right: 1rem;
+  }
+  
+  .connect a .fab {
+    color: #cc0000;
+    font-size: 2rem;
+    transition: .5s;
+  }
+}
+
+media screen and (max-width: 594px) {
+ /*---- CONNECT ----*/
+  
+  .connect a {
+    display: inline-block;
+    margin: 0;
+    margin-right: 1rem;
+  }
+  
+  .connect a .fab {
+    color: #cc0000;
+    font-size: 2rem;
+    transition: .5s;
+  }
+}
+
